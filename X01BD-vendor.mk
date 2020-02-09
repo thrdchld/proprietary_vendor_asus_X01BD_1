@@ -18,8 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/X01BD
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/X01BD/proprietary/vendor/bin/nvram_btwifi:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_btwifi \
-    vendor/asus/X01BD/proprietary/vendor/lib64/libmmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmi.so \
+    vendor/asus/X01BD/proprietary/bin/nvram_btwifi:$(TARGET_COPY_OUT_SYSTEM)/bin/nvram_btwifi \
+    vendor/asus/X01BD/proprietary/lib64/libmmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmi.so \
     vendor/asus/X01BD/proprietary/product/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/asus/X01BD/proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
